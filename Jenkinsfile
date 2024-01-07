@@ -9,7 +9,7 @@ pipeline {
         }
         stage('format') {
             steps {
-                sh 'terraform fmt
+                sh 'terraform fmt'
             }
         }
          stage('validate') {
